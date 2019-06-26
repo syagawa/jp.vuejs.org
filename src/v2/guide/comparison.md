@@ -93,7 +93,9 @@ Vue は、[描画関数](render-function.html)と、さらに [JSX のサポー�
 
 これらの間にあるもう 1 つの重要な違いは、Vue における状態管理やルーティング（や[その他の関心事](https://github.com/vuejs)）のための関連ライブラリはすべて公式にサポートされていて、コアのライブラリとともに更新され続けているということです。React はそのような関心事はコミュニティにまかせており、より断片的なエコシステムを作り上げています。それはより大衆的ではありますが、React のエコシステムは Vue のそれを大きく上回って豊かです。
 
-最後に、Vue は [CLI によるプロジェクト生成ツール](https://github.com/vuejs/vue-cli)を提供しており、それによってあなたは好きなビルドシステムを使った新しいプロジェクトをとても簡単に始めることができます。ビルドシステムには、[webpack](https://github.com/vuejs-templates/webpack)、[Browserify](https://github.com/vuejs-templates/browserify)、さらに[ビルドシステム無し](https://github.com/vuejs-templates/simple)などがあります。React も [create-react-app](https://github.com/facebookincubator/create-react-app) でこの領域に取り組んでいますが、現在いくつかの制限があります：
+最後に、Vue は [CLI によるプロジェクト生成ツール](https://github.com/vuejs/vue-cli)を提供しており、対話形式のプロジェクト構築ウィザードによって新しいプロジェクトを簡単に始めることができます。
+
+ビルドシステムには、[webpack](https://github.com/vuejs-templates/webpack)、[Browserify](https://github.com/vuejs-templates/browserify)、さらに[ビルドシステム無し](https://github.com/vuejs-templates/simple)などがあります。React も [create-react-app](https://github.com/facebookincubator/create-react-app) でこの領域に取り組んでいますが、現在いくつかの制限があります：
 
 - Vue のプロジェクトテンプレートが [Yeoman](http://yeoman.io/) のようなカスタマイズ機能を持つのに対し、プロジェクトの作成時にいかなる設定もできません。
 - Vue が様々な目的やビルドシステムのために広い種類のテンプレートを提供しているのに対し、シングルページアプリケーションを構築することを想定した 1 つのテンプレートしか提供していません。
